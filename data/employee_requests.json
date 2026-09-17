@@ -1,0 +1,394 @@
+[
+    {
+        "id": "REQ-01",
+        "employee": "Aditi Sharma",
+        "email": "aditi.sharma@veridian-corp.example",
+        "date": "Mon 21 Sep",
+        "request": "My laptop won't turn on at all, it's completely dead, had it about 3.5 years now.",
+        "initial_action": "Not started"
+    },
+    {
+        "id": "REQ-02",
+        "employee": "Vikram Chawla",
+        "email": "vikram.chawla@veridian-corp.example",
+        "date": "Mon 21 Sep",
+        "request": "Can I get Wi-Fi access for a guest visiting our office tomorrow?",
+        "initial_action": "Not started"
+    },
+    {
+        "id": "REQ-03",
+        "employee": "Karan Mehta",
+        "email": "karan.mehta@veridian-corp.example",
+        "date": "Mon 21 Sep",
+        "request": "I'm locked out of my account, tried my password 6 times.",
+        "initial_action": "In progress — reset queued"
+    },
+    {
+        "id": "REQ-04",
+        "employee": "Ritu Bhatia",
+        "email": "ritu.bhatia@veridian-corp.example",
+        "date": "Tue 22 Sep",
+        "request": "Need approval to install a data-analysis tool that's not in the software catalog.",
+        "initial_action": "Waiting on Security review"
+    },
+    {
+        "id": "REQ-05",
+        "employee": "Sanjay Oberoi",
+        "email": "sanjay.oberoi@veridian-corp.example",
+        "date": "Tue 22 Sep",
+        "request": "My VPN stopped working this morning, says credentials expired.",
+        "initial_action": "Not started"
+    },
+    {
+        "id": "REQ-06",
+        "employee": "Meera Iyer",
+        "email": "meera.iyer@veridian-corp.example",
+        "date": "Tue 22 Sep",
+        "request": "Printer on the 3rd floor keeps showing paper jam even though there's no jam.",
+        "initial_action": "Investigating — technician assigned"
+    },
+    {
+        "id": "REQ-07",
+        "employee": "Farhan Ali",
+        "email": "farhan.ali@veridian-corp.example",
+        "date": "Wed 23 Sep",
+        "request": "I've started working from home 4 days a week, how do I get a monitor?",
+        "initial_action": "Not started"
+    },
+    {
+        "id": "REQ-08",
+        "employee": "Ananya Reddy",
+        "email": "ananya.reddy@veridian-corp.example",
+        "date": "Wed 23 Sep",
+        "request": "I think I got a phishing email asking for my login — forwarding it to a few teammates to check.",
+        "initial_action": "Escalated to Security — auto-flagged"
+    },
+    {
+        "id": "REQ-09",
+        "employee": "Rohit Desai",
+        "email": "rohit.desai@veridian-corp.example",
+        "date": "Wed 23 Sep",
+        "request": "My mailbox is full and I can't send emails.",
+        "initial_action": "Not started"
+    },
+    {
+        "id": "REQ-10",
+        "employee": "Kavya Pillai",
+        "email": "kavya.pillai@veridian-corp.example",
+        "date": "Wed 23 Sep",
+        "request": "Can someone give me admin access to the finance reporting server? Need it urgently for month-end.",
+        "initial_action": "Not started"
+    },
+    {
+        "id": "REQ-11",
+        "employee": "Nikhil Bansal",
+        "email": "nikhil.bansal@veridian-corp.example",
+        "date": "Thu 24 Sep",
+        "request": "New contractor joining my team next week, they'll need VPN access.",
+        "initial_action": "Not started"
+    },
+    {
+        "id": "REQ-12",
+        "employee": "Sneha Kulkarni",
+        "email": "sneha.kulkarni@veridian-corp.example",
+        "date": "Thu 24 Sep",
+        "request": "I can't log into the expense tool, keeps saying invalid credentials.",
+        "initial_action": "Waiting on employee response — asked for a screenshot, no reply yet"
+    },
+    {
+        "id": "REQ-13",
+        "employee": "Aman Gupta",
+        "email": "aman.gupta@veridian-corp.example",
+        "date": "Thu 24 Sep",
+        "request": "Laptop screen is flickering on and off, had it 2 years, might just need a fix not a replacement.",
+        "initial_action": "Not started"
+    },
+    {
+        "id": "REQ-14",
+        "employee": "Tanya Chopra",
+        "email": "tanya.chopra@veridian-corp.example",
+        "date": "Fri 25 Sep",
+        "request": "Requesting approval to install a browser extension for productivity tracking.",
+        "initial_action": "Not started"
+    },
+    {
+        "id": "REQ-15",
+        "employee": "Rahul Menon",
+        "email": "rahul.menon@veridian-corp.example",
+        "date": "Fri 25 Sep",
+        "request": "hey can you help, its not working",
+        "initial_action": "Not started"
+    },
+    {
+        "id": "REQ-16",
+        "employee": "Demo Employee",
+        "email": "",
+        "date": "Thu 17 Sep",
+        "request": "Need approval to install\na data-analysis tool\nthat’s not in the\nsoftware catalog.",
+        "initial_action": "Ticket created: TK-1058 — IT Security"
+    },
+    {
+        "id": "REQ-17",
+        "employee": "Demo Employee",
+        "email": "",
+        "date": "Thu 17 Sep",
+        "request": "My VPN is not working",
+        "initial_action": "Ticket created: TK-1059 — IT Support"
+    },
+    {
+        "id": "REQ-18",
+        "employee": "Demo Employee",
+        "email": "",
+        "date": "Thu 17 Sep",
+        "request": "My printer isn't working.",
+        "initial_action": "Ticket created: TK-1060 — IT Support"
+    },
+    {
+        "id": "REQ-19",
+        "employee": "Demo Employee",
+        "email": "",
+        "date": "Thu 17 Sep",
+        "request": "I am locked out of my account after several failed password attempts.",
+        "initial_action": "Ticket created: TK-1061 — IT Support"
+    },
+    {
+        "id": "REQ-20",
+        "employee": "Demo Employee",
+        "email": "",
+        "date": "Thu 17 Sep",
+        "request": "My laptop has a problem.",
+        "initial_action": "Ticket created: TK-1062 — IT Support"
+    },
+    {
+        "id": "REQ-21",
+        "employee": "Demo Employee",
+        "email": "",
+        "date": "Thu 17 Sep",
+        "request": "My laptop has a problem.",
+        "initial_action": "Follow-up required — More information required."
+    },
+    {
+        "id": "REQ-22",
+        "employee": "Demo Employee",
+        "email": "",
+        "date": "Thu 17 Sep",
+        "request": "My laptop has a problem.",
+        "initial_action": "Ticket created: TK-1063 — IT Support"
+    },
+    {
+        "id": "REQ-23",
+        "employee": "Demo Employee",
+        "email": "",
+        "date": "Thu 17 Sep",
+        "request": "My laptop screen is flickering and the device is not working properly.",
+        "initial_action": "Ticket created: TK-1064 — IT + Finance"
+    },
+    {
+        "id": "REQ-24",
+        "employee": "Demo Employee",
+        "email": "",
+        "date": "Thu 17 Sep",
+        "request": "My laptop screen is flickering and the device is not working properly.",
+        "initial_action": "Ticket created: TK-1065 — IT + Finance"
+    },
+    {
+        "id": "REQ-25",
+        "employee": "Demo Employee",
+        "email": "",
+        "date": "Thu 17 Sep",
+        "request": "I received a suspicious phishing email.",
+        "initial_action": "Escalated to Security — TK-1066"
+    },
+    {
+        "id": "REQ-26",
+        "employee": "Demo Employee",
+        "email": "",
+        "date": "Thu 17 Sep",
+        "request": "I am locked out of my account after several failed password attempts.",
+        "initial_action": "Ticket created: TK-1067 — IT Support"
+    },
+    {
+        "id": "REQ-27",
+        "employee": "Demo Employee",
+        "email": "",
+        "date": "Thu 17 Sep",
+        "request": "I am locked out of my account after several failed password attempts.",
+        "initial_action": "Ticket created: TK-1068 — IT Support"
+    },
+    {
+        "id": "REQ-28",
+        "employee": "Demo Employee",
+        "email": "",
+        "date": "Thu 17 Sep",
+        "request": "My laptop has a problem.",
+        "initial_action": "Follow-up required — What problem are you experiencing with the laptop?"
+    },
+    {
+        "id": "REQ-29",
+        "employee": "Demo Employee",
+        "email": "",
+        "date": "Thu 17 Sep",
+        "request": "My laptop has a problem. Additional information: Screen/display problem",
+        "initial_action": "Ticket created: TK-1069 — IT Support"
+    },
+    {
+        "id": "REQ-30",
+        "employee": "Demo Employee",
+        "email": "",
+        "date": "Thu 17 Sep",
+        "request": "My laptop has a problem. Additional information: Screen/display problem",
+        "initial_action": "Ticket created: TK-1070 — IT Support"
+    },
+    {
+        "id": "REQ-31",
+        "employee": "Demo Employee",
+        "email": "",
+        "date": "Thu 17 Sep",
+        "request": "My laptop has a problem.",
+        "initial_action": "Follow-up required — What problem are you experiencing with the laptop?"
+    },
+    {
+        "id": "REQ-32",
+        "employee": "Demo Employee",
+        "email": "",
+        "date": "Thu 17 Sep",
+        "request": "My laptop has a problem. Additional information: Laptop is not turning on",
+        "initial_action": "Ticket created: TK-1071 — IT Support"
+    },
+    {
+        "id": "REQ-33",
+        "employee": "Demo Employee",
+        "email": "",
+        "date": "Thu 17 Sep",
+        "request": "I forgot my password",
+        "initial_action": "Resolved through self-service"
+    },
+    {
+        "id": "REQ-34",
+        "employee": "Demo Employee",
+        "email": "",
+        "date": "Thu 17 Sep",
+        "request": "My account is locked after 6 failed attempts",
+        "initial_action": "Ticket created: TK-1072 — IT Support"
+    },
+    {
+        "id": "REQ-35",
+        "employee": "Demo Employee",
+        "email": "",
+        "date": "Thu 17 Sep",
+        "request": "The printer has a paper jam",
+        "initial_action": "Ticket created: TK-1073 — IT Support"
+    },
+    {
+        "id": "REQ-36",
+        "employee": "Demo Employee",
+        "email": "",
+        "date": "Thu 17 Sep",
+        "request": "My laptop has a problem",
+        "initial_action": "Follow-up required — What problem are you experiencing with the laptop?"
+    },
+    {
+        "id": "REQ-37",
+        "employee": "Demo Employee",
+        "email": "",
+        "date": "Thu 17 Sep",
+        "request": "I need admin access to the finance server urgently",
+        "initial_action": "Ticket created: TK-1074 — IT Security"
+    },
+    {
+        "id": "REQ-38",
+        "employee": "Demo Employee",
+        "email": "",
+        "date": "Thu 17 Sep",
+        "request": "My VPN credentials have expired",
+        "initial_action": "Ticket created: TK-1075 — IT Support"
+    },
+    {
+        "id": "REQ-39",
+        "employee": "Demo Employee",
+        "email": "",
+        "date": "Thu 17 Sep",
+        "request": "My email has a problem",
+        "initial_action": "Follow-up required — What problem are you experiencing with your email?"
+    },
+    {
+        "id": "REQ-40",
+        "employee": "Demo Employee",
+        "email": "",
+        "date": "Thu 17 Sep",
+        "request": "My email has a problem Additional information: My mailbox is full",
+        "initial_action": "Ticket created: TK-1076 — IT Support"
+    },
+    {
+        "id": "REQ-41",
+        "employee": "Demo Employee",
+        "email": "",
+        "date": "Thu 17 Sep",
+        "request": "I forgot my password",
+        "initial_action": "Resolved through self-service"
+    },
+    {
+        "id": "REQ-42",
+        "employee": "Demo Employee",
+        "email": "",
+        "date": "Thu 17 Sep",
+        "request": "My account is locked after 6 failed attempts",
+        "initial_action": "Ticket created: TK-1077 — IT Support"
+    },
+    {
+        "id": "REQ-43",
+        "employee": "Demo Employee",
+        "email": "",
+        "date": "Thu 17 Sep",
+        "request": "My VPN has a problem",
+        "initial_action": "Follow-up required — What problem are you experiencing with VPN?"
+    },
+    {
+        "id": "REQ-44",
+        "employee": "Demo Employee",
+        "email": "",
+        "date": "Thu 17 Sep",
+        "request": "My VPN has a problem Additional information: vpn damage",
+        "initial_action": "Follow-up required — What problem are you experiencing with VPN?"
+    },
+    {
+        "id": "REQ-45",
+        "employee": "Demo Employee",
+        "email": "",
+        "date": "Thu 17 Sep",
+        "request": "My VPN has a problem Additional information: vpn damage Additional information: VPN is not connecting",
+        "initial_action": "Follow-up required — What problem are you experiencing with VPN?"
+    },
+    {
+        "id": "REQ-46",
+        "employee": "Demo Employee",
+        "email": "",
+        "date": "Thu 17 Sep",
+        "request": "I am a contractor and need VPN access",
+        "initial_action": "Ticket created: TK-1078 — IT Support"
+    },
+    {
+        "id": "REQ-47",
+        "employee": "Demo Employee",
+        "email": "",
+        "date": "Thu 17 Sep",
+        "request": "I need a non-catalog software tool",
+        "initial_action": "Ticket created: TK-1079 — IT Security"
+    },
+    {
+        "id": "REQ-48",
+        "employee": "Demo Employee",
+        "email": "",
+        "date": "Thu 17 Sep",
+        "request": "Hey, can you help? It's not working",
+        "initial_action": "Ticket created: TK-1080 — IT Support"
+    },
+    {
+        "id": "REQ-49",
+        "employee": "Demo Employee",
+        "email": "",
+        "date": "Thu 17 Sep",
+        "request": "Laptop screen is\nflickering on and off,\nhad it 2 years, might\njust need a fix not a\nreplacement.",
+        "initial_action": "Ticket created: TK-1081 — IT Support"
+    }
+]

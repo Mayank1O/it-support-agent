@@ -1,0 +1,1110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Veridian IT Support</title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='css/style.css') }}"
+    >
+
+</head>
+
+
+<body>
+
+
+<div class="app" id="app">
+
+
+    <!-- ==========================================
+         SIDEBAR
+    =========================================== -->
+
+    <aside class="sidebar" id="sidebar">
+
+        <div class="brand">
+
+            <div class="brand-name">
+                Veridian
+            </div>
+
+            <div class="brand-subtitle">
+                IT Support
+            </div>
+
+        </div>
+
+
+        <nav class="navigation">
+
+            <button
+                class="nav-item active"
+                onclick="showPage('supportPage', this)"
+            >
+                <span>Ask IT Agent</span>
+            </button>
+
+
+            <button
+                class="nav-item"
+                onclick="showPage('requestsPage', this)"
+            >
+                <span>My Requests</span>
+            </button>
+
+
+            <button
+                class="nav-item"
+                onclick="showPage('ticketsPage', this)"
+            >
+                <span>Tickets</span>
+            </button>
+
+
+            <button
+                class="nav-item"
+                onclick="showPage('dashboardPage', this)"
+            >
+                <span>IT Dashboard</span>
+            </button>
+
+        </nav>
+
+
+        <div class="sidebar-footer">
+
+            <div class="employee-label">
+                Logged in as
+            </div>
+
+            <div class="employee-name">
+                Demo Employee
+            </div>
+
+        </div>
+
+    </aside>
+
+
+    <!-- ==========================================
+         SIDEBAR TOGGLE
+    =========================================== -->
+
+    <button
+        id="sidebarToggle"
+        class="sidebar-toggle"
+        onclick="toggleSidebar()"
+        aria-label="Toggle sidebar"
+    >
+        ×
+    </button>
+
+
+    <!-- ==========================================
+         MAIN CONTENT
+    =========================================== -->
+
+    <main class="content">
+
+
+        <!-- ======================================
+             SUPPORT PAGE
+        ======================================= -->
+
+        <section
+            id="supportPage"
+            class="page active-page"
+        >
+
+            <div class="page-header">
+
+                <div>
+
+                    <h1>
+                        IT Support Agent
+                    </h1>
+
+                    <p>
+                        Describe your IT issue and the agent will analyze,
+                        resolve, or route it to the appropriate team.
+                    </p>
+
+                </div>
+
+
+                <div class="online-status">
+
+                    <span class="status-dot"></span>
+
+                    Agent Online
+
+                </div>
+
+            </div>
+
+
+            <!-- ==================================
+                 REQUEST INPUT
+            =================================== -->
+
+            <div class="request-card">
+
+                <label for="requestText">
+                    Describe your issue
+                </label>
+
+
+                <textarea
+                    id="requestText"
+                    rows="5"
+                    placeholder="For example: I am locked out of my account after several failed password attempts."
+                ></textarea>
+
+
+                <div class="quick-actions">
+
+                    <span class="quick-label">
+                        Quick examples:
+                    </span>
+
+
+                    <button
+                        type="button"
+                        onclick="setExample('I cannot connect to the company VPN.')"
+                    >
+                        VPN Issue
+                    </button>
+
+
+                    <button
+                        type="button"
+                        onclick="setExample('I am locked out of my account after several failed password attempts.')"
+                    >
+                        Password Issue
+                    </button>
+
+
+                    <button
+                        type="button"
+                        onclick="setExample('I received a suspicious phishing email.')"
+                    >
+                        Security Issue
+                    </button>
+
+
+                    <button
+                        type="button"
+                        onclick="setExample('My laptop screen is flickering and the device is not working properly.')"
+                    >
+                        Laptop Issue
+                    </button>
+
+                </div>
+
+
+                <button
+                    id="submitBtn"
+                    class="primary-button"
+                    onclick="submitRequest()"
+                >
+                    Analyze Request
+                </button>
+
+
+                <!-- LOADING -->
+
+                <div
+                    id="loading"
+                    class="loading hidden"
+                >
+
+                    <div class="spinner"></div>
+
+                    <span>
+                        Analyzing your request...
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- ==================================
+                 RESULT
+            =================================== -->
+
+            <div
+                id="result"
+                class="result hidden"
+            >
+
+
+                <!-- REQUEST SUMMARY -->
+
+                <div class="result-header">
+
+                    <div>
+
+                        <span class="result-label">
+                            Analysis Result
+                        </span>
+
+                        <h2 id="resultStatus">
+                            Request analyzed
+                        </h2>
+
+                    </div>
+
+
+                    <div
+                        id="priorityBadge"
+                        class="priority-badge"
+                    >
+                        MEDIUM
+                    </div>
+
+                </div>
+
+
+                <!-- REQUEST ID -->
+
+                <div class="request-id-box">
+
+                    <span>
+                        Request ID
+                    </span>
+
+                    <strong id="requestId">
+                        —
+                    </strong>
+
+                </div>
+
+
+                <!-- ==================================
+                     FOLLOW-UP REQUIRED
+                =================================== -->
+
+                <div
+                    id="followUpSection"
+                    class="section follow-up-section hidden"
+                >
+
+                    <div class="section-title">
+                        Follow-up Required
+                    </div>
+
+
+                    <p
+                        id="followUpQuestion"
+                        class="follow-up-question"
+                    >
+                        Additional information is required.
+                    </p>
+
+
+                    <div
+                        id="followUpOptions"
+                        class="follow-up-options"
+                    >
+                    </div>
+
+
+                    <div class="follow-up-custom">
+
+                        <input
+                            type="text"
+                            id="followUpInput"
+                            placeholder="Or provide additional information..."
+                        >
+
+
+                        <button
+                            type="button"
+                            onclick="submitFollowUp()"
+                        >
+                            Continue
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ==================================
+                     MAIN RESULT GRID
+                =================================== -->
+
+                <div class="grid">
+
+
+                    <div class="info-box">
+
+                        <span class="info-label">
+                            Category
+                        </span>
+
+                        <strong id="category">
+                            —
+                        </strong>
+
+                    </div>
+
+
+                    <div class="info-box">
+
+                        <span class="info-label">
+                            Confidence
+                        </span>
+
+                        <strong id="confidence">
+                            —
+                        </strong>
+
+                    </div>
+
+
+                    <div class="info-box">
+
+                        <span class="info-label">
+                            Decision
+                        </span>
+
+                        <strong id="decision">
+                            —
+                        </strong>
+
+                    </div>
+
+
+                    <div class="info-box">
+
+                        <span class="info-label">
+                            Assigned Team
+                        </span>
+
+                        <strong id="assignedTeam">
+                            —
+                        </strong>
+
+                    </div>
+
+
+                    <div class="info-box">
+
+                        <span class="info-label">
+                            Status
+                        </span>
+
+                        <strong id="status">
+                            —
+                        </strong>
+
+                    </div>
+
+
+                    <div class="info-box">
+
+                        <span class="info-label">
+                            Resolution Type
+                        </span>
+
+                        <strong id="resolutionType">
+                            —
+                        </strong>
+
+                    </div>
+
+
+                </div>
+
+
+                <!-- ==================================
+                     REASON
+                =================================== -->
+
+                <div class="section">
+
+                    <div class="section-title">
+                        Decision Reason
+                    </div>
+
+                    <p id="reason">
+                        —
+                    </p>
+
+                </div>
+
+
+                <!-- ==================================
+                     RECOMMENDED ACTION
+                =================================== -->
+
+                <div class="section">
+
+                    <div class="section-title">
+                        Recommended Action
+                    </div>
+
+                    <p id="recommendedAction">
+                        —
+                    </p>
+
+                </div>
+
+
+                <!-- ==================================
+                     ESCALATION INFORMATION
+                =================================== -->
+
+                <div
+                    id="escalationSection"
+                    class="section escalation-section hidden"
+                >
+
+                    <div class="section-title">
+                        Escalation / Human Review
+                    </div>
+
+
+                    <p id="escalationReason">
+                        —
+                    </p>
+
+                </div>
+
+
+                <!-- ==================================
+                     KNOWLEDGE BASE SOURCE
+                =================================== -->
+
+                <div class="section source-section">
+
+                    <div class="section-title">
+                        Source Used
+                    </div>
+
+
+                    <div
+                        id="sourceUsed"
+                        class="source-card"
+                    >
+
+                        <div class="source-row">
+
+                            <span>
+                                Source Type
+                            </span>
+
+                            <strong id="sourceType">
+                                —
+                            </strong>
+
+                        </div>
+
+
+                        <div class="source-row">
+
+                            <span>
+                                Article
+                            </span>
+
+                            <strong id="sourceTitle">
+                                —
+                            </strong>
+
+                        </div>
+
+
+                        <div class="source-row">
+
+                            <span>
+                                Source ID
+                            </span>
+
+                            <strong id="sourceId">
+                                —
+                            </strong>
+
+                        </div>
+
+
+                        <div class="source-row">
+
+                            <span>
+                                Category
+                            </span>
+
+                            <strong id="sourceCategory">
+                                —
+                            </strong>
+
+                        </div>
+
+
+                        <div class="source-row">
+
+                            <span>
+                                Relevance
+                            </span>
+
+                            <strong id="sourceSimilarity">
+                                —
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+                    <div
+                        id="noSource"
+                        class="no-source hidden"
+                    >
+                        No sufficiently relevant knowledge base article
+                        was found for this request.
+                    </div>
+
+                </div>
+
+
+                <!-- ==================================
+                     POLICY
+                =================================== -->
+
+                <div class="section">
+
+                    <div class="section-title">
+                        Matched Policy
+                    </div>
+
+
+                    <div class="policy-card">
+
+                        <div class="policy-heading">
+
+                            <strong id="policy">
+                                No policy matched
+                            </strong>
+
+                        </div>
+
+
+                        <div
+                            id="governingPolicySection"
+                            class="governing-policy"
+                        >
+
+                            <span class="policy-label">
+                                Governing Policy
+                            </span>
+
+                            <p id="governingPolicy">
+                                —
+                            </p>
+
+                        </div>
+
+
+                        <div class="policy-section">
+
+                            <span class="policy-label">
+                                Policy Section
+                            </span>
+
+                            <p id="governingPolicySectionText">
+                                —
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ==================================
+                     RELATED TICKETS
+                =================================== -->
+
+                <div class="section">
+
+                    <div class="section-title">
+                        Related Tickets
+                    </div>
+
+
+                    <div id="relatedTickets">
+                        No related tickets found.
+                    </div>
+
+                </div>
+
+
+                <!-- ==================================
+                     TICKET CREATED
+                =================================== -->
+
+                <div
+                    id="ticketInfo"
+                    class="ticket-created hidden"
+                >
+
+                    <div class="ticket-created-title">
+                        Ticket Created
+                    </div>
+
+
+                    <div class="ticket-number">
+                        <span id="ticketId">
+                            TK-0000
+                        </span>
+                    </div>
+
+
+                    <div class="ticket-status-text">
+
+                        Status:
+
+                        <strong id="ticketStatus">
+                            Open
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ==================================
+                     AUDIT TRAIL
+                =================================== -->
+
+                <div class="section audit-section">
+
+                    <div class="section-title">
+                        Audit Trail
+                    </div>
+
+
+                    <p class="audit-description">
+                        Recorded actions performed while processing this request.
+                    </p>
+
+
+                    <div
+                        id="auditTrail"
+                        class="audit-trail"
+                    >
+
+                        <div class="audit-empty">
+                            No audit events available.
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- ======================================
+             MY REQUESTS PAGE
+        ======================================= -->
+
+        <section
+            id="requestsPage"
+            class="page hidden"
+        >
+
+            <div class="page-header">
+
+                <div>
+
+                    <h1>
+                        My Requests
+                    </h1>
+
+                    <p>
+                        View requests submitted to the IT Support Agent.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="table-card">
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+
+                            <th>
+                                Request ID
+                            </th>
+
+                            <th>
+                                Employee
+                            </th>
+
+                            <th>
+                                Date
+                            </th>
+
+                            <th>
+                                Request
+                            </th>
+
+                            <th>
+                                Initial Action
+                            </th>
+
+                        </tr>
+
+                    </thead>
+
+
+                    <tbody id="requestsTable">
+
+                        <tr>
+
+                            <td colspan="5">
+                                Loading requests...
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+
+        <!-- ======================================
+             TICKETS PAGE
+        ======================================= -->
+
+        <section
+            id="ticketsPage"
+            class="page hidden"
+        >
+
+            <div class="page-header">
+
+                <div>
+
+                    <h1>
+                        IT Tickets
+                    </h1>
+
+                    <p>
+                        Review and update tickets created by the support agent.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="table-card">
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+
+                            <th>
+                                Ticket ID
+                            </th>
+
+                            <th>
+                                Employee
+                            </th>
+
+                            <th>
+                                Category
+                            </th>
+
+                            <th>
+                                Priority
+                            </th>
+
+                            <th>
+                                Assigned Team
+                            </th>
+
+                            <th>
+                                Issue
+                            </th>
+
+                            <th>
+                                Status
+                            </th>
+
+                        </tr>
+
+                    </thead>
+
+
+                    <tbody id="ticketsTable">
+
+                        <tr>
+
+                            <td colspan="7">
+                                Loading tickets...
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+
+        <!-- ======================================
+             DASHBOARD PAGE
+        ======================================= -->
+
+        <section
+            id="dashboardPage"
+            class="page hidden"
+        >
+
+            <div class="page-header">
+
+                <div>
+
+                    <h1>
+                        IT Dashboard
+                    </h1>
+
+                    <p>
+                        Overview of employee requests, tickets,
+                        resolutions, escalations, and audit activity.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- DASHBOARD STATS -->
+
+            <div class="stats">
+
+
+                <div class="stat-card">
+
+                    <span class="stat-label">
+                        Total Requests
+                    </span>
+
+                    <strong
+                        id="totalRequests"
+                        class="stat-value"
+                    >
+                        0
+                    </strong>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <span class="stat-label">
+                        Total Tickets
+                    </span>
+
+                    <strong
+                        id="totalTickets"
+                        class="stat-value"
+                    >
+                        0
+                    </strong>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <span class="stat-label">
+                        Active Tickets
+                    </span>
+
+                    <strong
+                        id="activeTickets"
+                        class="stat-value"
+                    >
+                        0
+                    </strong>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <span class="stat-label">
+                        Security Cases
+                    </span>
+
+                    <strong
+                        id="securityCases"
+                        class="stat-value"
+                    >
+                        0
+                    </strong>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <span class="stat-label">
+                        Escalated Cases
+                    </span>
+
+                    <strong
+                        id="escalatedCases"
+                        class="stat-value"
+                    >
+                        0
+                    </strong>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <span class="stat-label">
+                        Self-Service Resolutions
+                    </span>
+
+                    <strong
+                        id="selfServiceCases"
+                        class="stat-value"
+                    >
+                        0
+                    </strong>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <span class="stat-label">
+                        Audit Events
+                    </span>
+
+                    <strong
+                        id="auditEvents"
+                        class="stat-value"
+                    >
+                        0
+                    </strong>
+
+                </div>
+
+
+            </div>
+
+
+            <!-- DASHBOARD REQUEST TABLE -->
+
+            <div class="table-card dashboard-table">
+
+                <div class="table-card-header">
+
+                    <h2>
+                        Recent Requests
+                    </h2>
+
+                </div>
+
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+
+                            <th>
+                                Request ID
+                            </th>
+
+                            <th>
+                                Employee
+                            </th>
+
+                            <th>
+                                Request
+                            </th>
+
+                            <th>
+                                Initial Action
+                            </th>
+
+                        </tr>
+
+                    </thead>
+
+
+                    <tbody id="adminRequestsTable">
+
+                        <tr>
+
+                            <td colspan="4">
+                                Loading dashboard data...
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+</div>
+
+
+<!-- ==========================================
+     JAVASCRIPT
+=========================================== -->
+
+<script
+    src="{{ url_for('static', filename='js/app.js') }}"
+></script>
+
+
+</body>
+
+</html>

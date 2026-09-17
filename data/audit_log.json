@@ -1,0 +1,1090 @@
+[
+    {
+        "timestamp": "2026-09-17 18:01:07",
+        "event": "Request received",
+        "details": "Employee submitted a new IT support request.",
+        "request_id": "REQ-16"
+    },
+    {
+        "timestamp": "2026-09-17 18:01:07",
+        "event": "Issue classified",
+        "details": "Request classified as Software with 32.3% confidence.",
+        "request_id": "REQ-16"
+    },
+    {
+        "timestamp": "2026-09-17 18:01:07",
+        "event": "Knowledge base searched",
+        "details": "Matched Software Installation (KB-04).",
+        "request_id": "REQ-16"
+    },
+    {
+        "timestamp": "2026-09-17 18:01:07",
+        "event": "Decision generated",
+        "details": "SECURITY_REVIEW — IT Security review required",
+        "request_id": "REQ-16"
+    },
+    {
+        "timestamp": "2026-09-17 18:01:07",
+        "event": "Ticket created",
+        "details": "Structured ticket created and assigned to IT Security.",
+        "request_id": "REQ-16",
+        "ticket_id": "TK-1058"
+    },
+    {
+        "timestamp": "2026-09-17 18:02:06",
+        "event": "Request received",
+        "details": "Employee submitted a new IT support request.",
+        "request_id": "REQ-17"
+    },
+    {
+        "timestamp": "2026-09-17 18:02:06",
+        "event": "Issue classified",
+        "details": "Request classified as VPN with 39.8% confidence.",
+        "request_id": "REQ-17"
+    },
+    {
+        "timestamp": "2026-09-17 18:02:06",
+        "event": "Knowledge base searched",
+        "details": "Matched VPN Access (KB-02).",
+        "request_id": "REQ-17"
+    },
+    {
+        "timestamp": "2026-09-17 18:02:06",
+        "event": "Decision generated",
+        "details": "ROUTE_TO_IT — IT troubleshooting required",
+        "request_id": "REQ-17"
+    },
+    {
+        "timestamp": "2026-09-17 18:02:06",
+        "event": "Ticket created",
+        "details": "Structured ticket created and assigned to IT Support.",
+        "request_id": "REQ-17",
+        "ticket_id": "TK-1059"
+    },
+    {
+        "timestamp": "2026-09-17 18:02:36",
+        "event": "Request received",
+        "details": "Employee submitted a new IT support request.",
+        "request_id": "REQ-18"
+    },
+    {
+        "timestamp": "2026-09-17 18:02:36",
+        "event": "Issue classified",
+        "details": "Request classified as Printer with 32.6% confidence.",
+        "request_id": "REQ-18"
+    },
+    {
+        "timestamp": "2026-09-17 18:02:37",
+        "event": "Knowledge base searched",
+        "details": "Matched Printer Troubleshooting (KB-05).",
+        "request_id": "REQ-18"
+    },
+    {
+        "timestamp": "2026-09-17 18:02:37",
+        "event": "Decision generated",
+        "details": "TROUBLESHOOT — Printer troubleshooting required",
+        "request_id": "REQ-18"
+    },
+    {
+        "timestamp": "2026-09-17 18:02:37",
+        "event": "Ticket created",
+        "details": "Structured ticket created and assigned to IT Support.",
+        "request_id": "REQ-18",
+        "ticket_id": "TK-1060"
+    },
+    {
+        "timestamp": "2026-09-17 18:03:05",
+        "event": "Request received",
+        "details": "Employee submitted a new IT support request.",
+        "request_id": "REQ-19"
+    },
+    {
+        "timestamp": "2026-09-17 18:03:05",
+        "event": "Issue classified",
+        "details": "Request classified as Password with 31.7% confidence.",
+        "request_id": "REQ-19"
+    },
+    {
+        "timestamp": "2026-09-17 18:03:05",
+        "event": "Knowledge base searched",
+        "details": "Matched Password Reset (KB-01).",
+        "request_id": "REQ-19"
+    },
+    {
+        "timestamp": "2026-09-17 18:03:05",
+        "event": "Decision generated",
+        "details": "ROUTE_TO_IT — IT manual unlock required",
+        "request_id": "REQ-19"
+    },
+    {
+        "timestamp": "2026-09-17 18:03:05",
+        "event": "Ticket created",
+        "details": "Structured ticket created and assigned to IT Support.",
+        "request_id": "REQ-19",
+        "ticket_id": "TK-1061"
+    },
+    {
+        "timestamp": "2026-09-17 18:06:35",
+        "event": "Request received",
+        "details": "Employee submitted a new IT support request.",
+        "request_id": "REQ-20"
+    },
+    {
+        "timestamp": "2026-09-17 18:06:35",
+        "event": "Issue classified",
+        "details": "Request classified as Laptop with 33.1% confidence.",
+        "request_id": "REQ-20"
+    },
+    {
+        "timestamp": "2026-09-17 18:06:35",
+        "event": "Knowledge base searched",
+        "details": "Matched Laptop Replacement (KB-03).",
+        "request_id": "REQ-20"
+    },
+    {
+        "timestamp": "2026-09-17 18:06:35",
+        "event": "Decision generated",
+        "details": "ROUTE_TO_IT — IT hardware assessment required",
+        "request_id": "REQ-20"
+    },
+    {
+        "timestamp": "2026-09-17 18:06:35",
+        "event": "Ticket created",
+        "details": "Structured ticket created and assigned to IT Support.",
+        "request_id": "REQ-20",
+        "ticket_id": "TK-1062"
+    },
+    {
+        "timestamp": "2026-09-17 18:11:33",
+        "event": "Request received",
+        "details": "Employee submitted a new IT support request.",
+        "request_id": "REQ-21"
+    },
+    {
+        "timestamp": "2026-09-17 18:11:33",
+        "event": "Issue classified",
+        "details": "Request classified as Laptop with 33.1% confidence.",
+        "request_id": "REQ-21"
+    },
+    {
+        "timestamp": "2026-09-17 18:11:33",
+        "event": "Knowledge base searched",
+        "details": "Matched Laptop Replacement (KB-03).",
+        "request_id": "REQ-21"
+    },
+    {
+        "timestamp": "2026-09-17 18:11:33",
+        "event": "Decision generated",
+        "details": "CLARIFICATION — More information required",
+        "request_id": "REQ-21"
+    },
+    {
+        "timestamp": "2026-09-17 18:11:33",
+        "event": "Follow-up requested",
+        "details": "Additional information required.",
+        "request_id": "REQ-21"
+    },
+    {
+        "timestamp": "2026-09-17 18:14:15",
+        "event": "Request received",
+        "details": "Employee submitted a new IT support request.",
+        "request_id": "REQ-22"
+    },
+    {
+        "timestamp": "2026-09-17 18:14:16",
+        "event": "Issue classified",
+        "details": "Request classified as Laptop with 33.1% confidence.",
+        "request_id": "REQ-22"
+    },
+    {
+        "timestamp": "2026-09-17 18:14:16",
+        "event": "Knowledge base searched",
+        "details": "Matched Laptop Replacement (KB-03).",
+        "request_id": "REQ-22"
+    },
+    {
+        "timestamp": "2026-09-17 18:14:16",
+        "event": "Decision generated",
+        "details": "ROUTE_TO_IT — IT hardware assessment required",
+        "request_id": "REQ-22"
+    },
+    {
+        "timestamp": "2026-09-17 18:14:16",
+        "event": "Ticket created",
+        "details": "Structured ticket created and assigned to IT Support.",
+        "request_id": "REQ-22",
+        "ticket_id": "TK-1063"
+    },
+    {
+        "timestamp": "2026-09-17 18:14:20",
+        "event": "Request received",
+        "details": "Employee submitted a new IT support request.",
+        "request_id": "REQ-23"
+    },
+    {
+        "timestamp": "2026-09-17 18:14:20",
+        "event": "Issue classified",
+        "details": "Request classified as Laptop with 27.5% confidence.",
+        "request_id": "REQ-23"
+    },
+    {
+        "timestamp": "2026-09-17 18:14:20",
+        "event": "Knowledge base searched",
+        "details": "Matched Laptop Replacement (KB-03).",
+        "request_id": "REQ-23"
+    },
+    {
+        "timestamp": "2026-09-17 18:14:20",
+        "event": "Decision generated",
+        "details": "ROUTE_TO_IT_FINANCE — Hardware verification and Finance approval required",
+        "request_id": "REQ-23"
+    },
+    {
+        "timestamp": "2026-09-17 18:14:20",
+        "event": "Ticket created",
+        "details": "Structured ticket created and assigned to IT + Finance.",
+        "request_id": "REQ-23",
+        "ticket_id": "TK-1064"
+    },
+    {
+        "timestamp": "2026-09-17 18:16:49",
+        "event": "Request received",
+        "details": "Employee submitted a new IT support request.",
+        "request_id": "REQ-24"
+    },
+    {
+        "timestamp": "2026-09-17 18:16:49",
+        "event": "Issue classified",
+        "details": "Request classified as Laptop with 27.5% confidence.",
+        "request_id": "REQ-24"
+    },
+    {
+        "timestamp": "2026-09-17 18:16:49",
+        "event": "Knowledge base searched",
+        "details": "Matched Laptop Replacement (KB-03).",
+        "request_id": "REQ-24"
+    },
+    {
+        "timestamp": "2026-09-17 18:16:49",
+        "event": "Decision generated",
+        "details": "ROUTE_TO_IT_FINANCE — Hardware verification and Finance approval required",
+        "request_id": "REQ-24"
+    },
+    {
+        "timestamp": "2026-09-17 18:16:49",
+        "event": "Ticket created",
+        "details": "Structured ticket created and assigned to IT + Finance.",
+        "request_id": "REQ-24",
+        "ticket_id": "TK-1065"
+    },
+    {
+        "timestamp": "2026-09-17 18:18:14",
+        "event": "Request received",
+        "details": "Employee submitted a new IT support request.",
+        "request_id": "REQ-25"
+    },
+    {
+        "timestamp": "2026-09-17 18:18:37",
+        "event": "Request received",
+        "details": "Employee submitted a new IT support request.",
+        "request_id": "REQ-25"
+    },
+    {
+        "timestamp": "2026-09-17 18:20:10",
+        "event": "Request received",
+        "details": "Employee submitted a new IT support request.",
+        "request_id": "REQ-25"
+    },
+    {
+        "timestamp": "2026-09-17 18:20:28",
+        "event": "Request received",
+        "details": "Employee submitted a new IT support request.",
+        "request_id": "REQ-25"
+    },
+    {
+        "timestamp": "2026-09-17 18:20:28",
+        "event": "Issue classified",
+        "details": "Request classified as Security with 31.4% confidence.",
+        "request_id": "REQ-25"
+    },
+    {
+        "timestamp": "2026-09-17 18:20:28",
+        "event": "Knowledge base searched",
+        "details": "Matched Security Incident Reporting (KB-09).",
+        "request_id": "REQ-25"
+    },
+    {
+        "timestamp": "2026-09-17 18:20:28",
+        "event": "Decision generated",
+        "details": "ESCALATE — Escalated to Security",
+        "request_id": "REQ-25"
+    },
+    {
+        "timestamp": "2026-09-17 18:20:28",
+        "event": "Ticket created",
+        "details": "Structured ticket created and assigned to Security.",
+        "request_id": "REQ-25",
+        "ticket_id": "TK-1066"
+    },
+    {
+        "timestamp": "2026-09-17 18:22:50",
+        "event": "Request received",
+        "details": "Employee submitted a new IT support request.",
+        "request_id": "REQ-26"
+    },
+    {
+        "timestamp": "2026-09-17 18:22:50",
+        "event": "Issue classified",
+        "details": "Request classified as Password with 31.7% confidence.",
+        "request_id": "REQ-26"
+    },
+    {
+        "timestamp": "2026-09-17 18:22:50",
+        "event": "Knowledge base searched",
+        "details": "Matched Password Reset (KB-01).",
+        "request_id": "REQ-26"
+    },
+    {
+        "timestamp": "2026-09-17 18:22:50",
+        "event": "Decision generated",
+        "details": "ROUTE_TO_IT — IT manual unlock required",
+        "request_id": "REQ-26"
+    },
+    {
+        "timestamp": "2026-09-17 18:22:50",
+        "event": "Ticket created",
+        "details": "Structured ticket created and assigned to IT Support.",
+        "request_id": "REQ-26",
+        "ticket_id": "TK-1067"
+    },
+    {
+        "timestamp": "2026-09-17 18:26:38",
+        "event": "Request received",
+        "details": "Employee submitted a new IT support request.",
+        "request_id": "REQ-27"
+    },
+    {
+        "timestamp": "2026-09-17 18:26:57",
+        "event": "Request received",
+        "details": "Employee submitted a new IT support request.",
+        "request_id": "REQ-27"
+    },
+    {
+        "timestamp": "2026-09-17 18:27:13",
+        "event": "Request received",
+        "details": "Employee submitted a new IT support request.",
+        "request_id": "REQ-27"
+    },
+    {
+        "timestamp": "2026-09-17 18:27:13",
+        "event": "Issue classified",
+        "details": "Request classified as Password with 31.7% confidence.",
+        "request_id": "REQ-27"
+    },
+    {
+        "timestamp": "2026-09-17 18:27:13",
+        "event": "Knowledge base searched",
+        "details": "Matched Password Reset (KB-01).",
+        "request_id": "REQ-27"
+    },
+    {
+        "timestamp": "2026-09-17 18:27:13",
+        "event": "Decision generated",
+        "details": "ROUTE_TO_IT — IT manual unlock required",
+        "request_id": "REQ-27"
+    },
+    {
+        "timestamp": "2026-09-17 18:27:13",
+        "event": "Ticket created",
+        "details": "Structured ticket created and assigned to IT Support.",
+        "request_id": "REQ-27",
+        "ticket_id": "TK-1068"
+    },
+    {
+        "timestamp": "2026-09-17 18:30:29",
+        "event": "Request received",
+        "details": "Employee submitted a new IT support request.",
+        "request_id": "REQ-28"
+    },
+    {
+        "timestamp": "2026-09-17 18:30:29",
+        "event": "Issue classified",
+        "details": "Request classified as Laptop with 72.8% confidence.",
+        "request_id": "REQ-28"
+    },
+    {
+        "timestamp": "2026-09-17 18:30:29",
+        "event": "Knowledge base searched",
+        "details": "Matched Laptop Replacement (KB-03).",
+        "request_id": "REQ-28"
+    },
+    {
+        "timestamp": "2026-09-17 18:30:29",
+        "event": "Decision generated",
+        "details": "CLARIFICATION — More information required",
+        "request_id": "REQ-28"
+    },
+    {
+        "timestamp": "2026-09-17 18:30:29",
+        "event": "Follow-up requested",
+        "details": "What problem are you experiencing with the laptop?",
+        "request_id": "REQ-28"
+    },
+    {
+        "timestamp": "2026-09-17 18:30:41",
+        "event": "Request received",
+        "details": "Employee submitted a new IT support request.",
+        "request_id": "REQ-29"
+    },
+    {
+        "timestamp": "2026-09-17 18:30:41",
+        "event": "Issue classified",
+        "details": "Request classified as Laptop with 72.8% confidence.",
+        "request_id": "REQ-29"
+    },
+    {
+        "timestamp": "2026-09-17 18:30:41",
+        "event": "Knowledge base searched",
+        "details": "Matched Laptop Replacement (KB-03).",
+        "request_id": "REQ-29"
+    },
+    {
+        "timestamp": "2026-09-17 18:30:41",
+        "event": "Decision generated",
+        "details": "ROUTE_TO_IT — IT hardware assessment required",
+        "request_id": "REQ-29"
+    },
+    {
+        "timestamp": "2026-09-17 18:30:41",
+        "event": "Ticket created",
+        "details": "Structured ticket created and assigned to IT Support.",
+        "request_id": "REQ-29",
+        "ticket_id": "TK-1069"
+    },
+    {
+        "timestamp": "2026-09-17 18:30:48",
+        "event": "Request received",
+        "details": "Employee submitted a new IT support request.",
+        "request_id": "REQ-30"
+    },
+    {
+        "timestamp": "2026-09-17 18:30:48",
+        "event": "Issue classified",
+        "details": "Request classified as Laptop with 72.8% confidence.",
+        "request_id": "REQ-30"
+    },
+    {
+        "timestamp": "2026-09-17 18:30:48",
+        "event": "Knowledge base searched",
+        "details": "Matched Laptop Replacement (KB-03).",
+        "request_id": "REQ-30"
+    },
+    {
+        "timestamp": "2026-09-17 18:30:48",
+        "event": "Decision generated",
+        "details": "ROUTE_TO_IT — IT hardware assessment required",
+        "request_id": "REQ-30"
+    },
+    {
+        "timestamp": "2026-09-17 18:30:48",
+        "event": "Ticket created",
+        "details": "Structured ticket created and assigned to IT Support.",
+        "request_id": "REQ-30",
+        "ticket_id": "TK-1070"
+    },
+    {
+        "timestamp": "2026-09-17 18:30:57",
+        "event": "Request received",
+        "details": "Employee submitted a new IT support request.",
+        "request_id": "REQ-31"
+    },
+    {
+        "timestamp": "2026-09-17 18:30:57",
+        "event": "Issue classified",
+        "details": "Request classified as Laptop with 72.8% confidence.",
+        "request_id": "REQ-31"
+    },
+    {
+        "timestamp": "2026-09-17 18:30:57",
+        "event": "Knowledge base searched",
+        "details": "Matched Laptop Replacement (KB-03).",
+        "request_id": "REQ-31"
+    },
+    {
+        "timestamp": "2026-09-17 18:30:57",
+        "event": "Decision generated",
+        "details": "CLARIFICATION — More information required",
+        "request_id": "REQ-31"
+    },
+    {
+        "timestamp": "2026-09-17 18:30:57",
+        "event": "Follow-up requested",
+        "details": "What problem are you experiencing with the laptop?",
+        "request_id": "REQ-31"
+    },
+    {
+        "timestamp": "2026-09-17 18:31:07",
+        "event": "Request received",
+        "details": "Employee submitted a new IT support request.",
+        "request_id": "REQ-32"
+    },
+    {
+        "timestamp": "2026-09-17 18:31:07",
+        "event": "Issue classified",
+        "details": "Request classified as Laptop with 72.8% confidence.",
+        "request_id": "REQ-32"
+    },
+    {
+        "timestamp": "2026-09-17 18:31:07",
+        "event": "Knowledge base searched",
+        "details": "Matched Laptop Replacement (KB-03).",
+        "request_id": "REQ-32"
+    },
+    {
+        "timestamp": "2026-09-17 18:31:07",
+        "event": "Decision generated",
+        "details": "ROUTE_TO_IT — IT hardware assessment required",
+        "request_id": "REQ-32"
+    },
+    {
+        "timestamp": "2026-09-17 18:31:07",
+        "event": "Ticket created",
+        "details": "Structured ticket created and assigned to IT Support.",
+        "request_id": "REQ-32",
+        "ticket_id": "TK-1071"
+    },
+    {
+        "timestamp": "2026-09-17 18:32:48",
+        "event": "Request received",
+        "details": "Employee submitted a new IT support request.",
+        "request_id": "REQ-33"
+    },
+    {
+        "timestamp": "2026-09-17 18:32:48",
+        "event": "Issue classified",
+        "details": "Request classified as Password with 76.7% confidence.",
+        "request_id": "REQ-33"
+    },
+    {
+        "timestamp": "2026-09-17 18:32:48",
+        "event": "Knowledge base searched",
+        "details": "Matched Password Reset (KB-01).",
+        "request_id": "REQ-33"
+    },
+    {
+        "timestamp": "2026-09-17 18:32:48",
+        "event": "Decision generated",
+        "details": "SELF_SERVICE — Password reset available",
+        "request_id": "REQ-33"
+    },
+    {
+        "timestamp": "2026-09-17 18:32:48",
+        "event": "Request resolved",
+        "details": "Request resolved through self-service guidance.",
+        "request_id": "REQ-33"
+    },
+    {
+        "timestamp": "2026-09-17 18:33:02",
+        "event": "Request received",
+        "details": "Employee submitted a new IT support request.",
+        "request_id": "REQ-34"
+    },
+    {
+        "timestamp": "2026-09-17 18:33:02",
+        "event": "Issue classified",
+        "details": "Request classified as General IT with 67.9% confidence.",
+        "request_id": "REQ-34"
+    },
+    {
+        "timestamp": "2026-09-17 18:33:02",
+        "event": "Knowledge base searched",
+        "details": "Matched Password Reset (KB-01).",
+        "request_id": "REQ-34"
+    },
+    {
+        "timestamp": "2026-09-17 18:33:02",
+        "event": "Decision generated",
+        "details": "HUMAN_REVIEW — More information required",
+        "request_id": "REQ-34"
+    },
+    {
+        "timestamp": "2026-09-17 18:33:02",
+        "event": "Ticket created",
+        "details": "Structured ticket created and assigned to IT Support.",
+        "request_id": "REQ-34",
+        "ticket_id": "TK-1072"
+    },
+    {
+        "timestamp": "2026-09-17 18:33:27",
+        "event": "Request received",
+        "details": "Employee submitted a new IT support request.",
+        "request_id": "REQ-35"
+    },
+    {
+        "timestamp": "2026-09-17 18:33:27",
+        "event": "Issue classified",
+        "details": "Request classified as Printer with 87.1% confidence.",
+        "request_id": "REQ-35"
+    },
+    {
+        "timestamp": "2026-09-17 18:33:27",
+        "event": "Knowledge base searched",
+        "details": "Matched Printer Troubleshooting (KB-05).",
+        "request_id": "REQ-35"
+    },
+    {
+        "timestamp": "2026-09-17 18:33:27",
+        "event": "Decision generated",
+        "details": "TROUBLESHOOT — Printer troubleshooting",
+        "request_id": "REQ-35"
+    },
+    {
+        "timestamp": "2026-09-17 18:33:27",
+        "event": "Ticket created",
+        "details": "Structured ticket created and assigned to IT Support.",
+        "request_id": "REQ-35",
+        "ticket_id": "TK-1073"
+    },
+    {
+        "timestamp": "2026-09-17 18:33:36",
+        "event": "Request received",
+        "details": "Employee submitted a new IT support request.",
+        "request_id": "REQ-36"
+    },
+    {
+        "timestamp": "2026-09-17 18:33:36",
+        "event": "Issue classified",
+        "details": "Request classified as Laptop with 72.8% confidence.",
+        "request_id": "REQ-36"
+    },
+    {
+        "timestamp": "2026-09-17 18:33:36",
+        "event": "Knowledge base searched",
+        "details": "Matched Laptop Replacement (KB-03).",
+        "request_id": "REQ-36"
+    },
+    {
+        "timestamp": "2026-09-17 18:33:37",
+        "event": "Decision generated",
+        "details": "CLARIFICATION — More information required",
+        "request_id": "REQ-36"
+    },
+    {
+        "timestamp": "2026-09-17 18:33:37",
+        "event": "Follow-up requested",
+        "details": "What problem are you experiencing with the laptop?",
+        "request_id": "REQ-36"
+    },
+    {
+        "timestamp": "2026-09-17 18:33:48",
+        "event": "Request received",
+        "details": "Employee submitted a new IT support request.",
+        "request_id": "REQ-37"
+    },
+    {
+        "timestamp": "2026-09-17 18:33:48",
+        "event": "Issue classified",
+        "details": "Request classified as General IT with 63.1% confidence.",
+        "request_id": "REQ-37"
+    },
+    {
+        "timestamp": "2026-09-17 18:33:48",
+        "event": "Knowledge base searched",
+        "details": "Matched Expense Software Access (KB-08).",
+        "request_id": "REQ-37"
+    },
+    {
+        "timestamp": "2026-09-17 18:33:48",
+        "event": "Decision generated",
+        "details": "REQUIRES_APPROVAL — Administrative access approval required",
+        "request_id": "REQ-37"
+    },
+    {
+        "timestamp": "2026-09-17 18:33:49",
+        "event": "Ticket created",
+        "details": "Structured ticket created and assigned to IT Security.",
+        "request_id": "REQ-37",
+        "ticket_id": "TK-1074"
+    },
+    {
+        "timestamp": "2026-09-17 18:35:21",
+        "event": "Request received",
+        "details": "Employee submitted a new IT support request.",
+        "request_id": "REQ-38"
+    },
+    {
+        "timestamp": "2026-09-17 18:35:21",
+        "event": "Issue classified",
+        "details": "Request classified as VPN with 87.0% confidence.",
+        "request_id": "REQ-38"
+    },
+    {
+        "timestamp": "2026-09-17 18:35:21",
+        "event": "Knowledge base searched",
+        "details": "Matched VPN Access (KB-02).",
+        "request_id": "REQ-38"
+    },
+    {
+        "timestamp": "2026-09-17 18:35:21",
+        "event": "Decision generated",
+        "details": "ROUTE_TO_IT — VPN credential support required",
+        "request_id": "REQ-38"
+    },
+    {
+        "timestamp": "2026-09-17 18:35:21",
+        "event": "Ticket created",
+        "details": "Structured ticket created and assigned to IT Support.",
+        "request_id": "REQ-38",
+        "ticket_id": "TK-1075"
+    },
+    {
+        "timestamp": "2026-09-17 18:35:38",
+        "event": "Request received",
+        "details": "Employee submitted a new IT support request.",
+        "request_id": "REQ-39"
+    },
+    {
+        "timestamp": "2026-09-17 18:35:38",
+        "event": "Issue classified",
+        "details": "Request classified as Email with 56.0% confidence.",
+        "request_id": "REQ-39"
+    },
+    {
+        "timestamp": "2026-09-17 18:35:38",
+        "event": "Knowledge base searched",
+        "details": "Matched Email Mailbox Quota (KB-06).",
+        "request_id": "REQ-39"
+    },
+    {
+        "timestamp": "2026-09-17 18:35:38",
+        "event": "Decision generated",
+        "details": "CLARIFICATION — More information required",
+        "request_id": "REQ-39"
+    },
+    {
+        "timestamp": "2026-09-17 18:35:38",
+        "event": "Follow-up requested",
+        "details": "What problem are you experiencing with your email?",
+        "request_id": "REQ-39"
+    },
+    {
+        "timestamp": "2026-09-17 18:35:40",
+        "event": "Request received",
+        "details": "Employee submitted a new IT support request.",
+        "request_id": "REQ-40"
+    },
+    {
+        "timestamp": "2026-09-17 18:35:40",
+        "event": "Issue classified",
+        "details": "Request classified as Email with 81.0% confidence.",
+        "request_id": "REQ-40"
+    },
+    {
+        "timestamp": "2026-09-17 18:35:40",
+        "event": "Knowledge base searched",
+        "details": "Matched Email Mailbox Quota (KB-06).",
+        "request_id": "REQ-40"
+    },
+    {
+        "timestamp": "2026-09-17 18:35:40",
+        "event": "Decision generated",
+        "details": "TROUBLESHOOT — Mailbox quota issue",
+        "request_id": "REQ-40"
+    },
+    {
+        "timestamp": "2026-09-17 18:35:40",
+        "event": "Ticket created",
+        "details": "Structured ticket created and assigned to IT Support.",
+        "request_id": "REQ-40",
+        "ticket_id": "TK-1076"
+    },
+    {
+        "timestamp": "2026-09-17 18:36:25",
+        "event": "Request received",
+        "details": "Employee submitted a new IT support request.",
+        "request_id": "REQ-41"
+    },
+    {
+        "timestamp": "2026-09-17 18:36:25",
+        "event": "Issue classified",
+        "details": "Request classified as Password with 91.0% confidence.",
+        "request_id": "REQ-41"
+    },
+    {
+        "timestamp": "2026-09-17 18:36:25",
+        "event": "Knowledge base searched",
+        "details": "Matched Password Reset (KB-01).",
+        "request_id": "REQ-41"
+    },
+    {
+        "timestamp": "2026-09-17 18:36:25",
+        "event": "Decision generated",
+        "details": "SELF_SERVICE — Self-service password reset",
+        "request_id": "REQ-41"
+    },
+    {
+        "timestamp": "2026-09-17 18:36:26",
+        "event": "Request resolved",
+        "details": "Request resolved through self-service guidance.",
+        "request_id": "REQ-41"
+    },
+    {
+        "timestamp": "2026-09-17 18:36:35",
+        "event": "Request received",
+        "details": "Employee submitted a new IT support request.",
+        "request_id": "REQ-42"
+    },
+    {
+        "timestamp": "2026-09-17 18:36:35",
+        "event": "Issue classified",
+        "details": "Request classified as General IT with 55.0% confidence.",
+        "request_id": "REQ-42"
+    },
+    {
+        "timestamp": "2026-09-17 18:36:35",
+        "event": "Knowledge base searched",
+        "details": "Matched Password Reset (KB-01).",
+        "request_id": "REQ-42"
+    },
+    {
+        "timestamp": "2026-09-17 18:36:35",
+        "event": "Decision generated",
+        "details": "HUMAN_REVIEW — Human review required",
+        "request_id": "REQ-42"
+    },
+    {
+        "timestamp": "2026-09-17 18:36:35",
+        "event": "Ticket created",
+        "details": "Structured ticket created and assigned to IT Support.",
+        "request_id": "REQ-42",
+        "ticket_id": "TK-1077"
+    },
+    {
+        "timestamp": "2026-09-17 18:36:48",
+        "event": "Request received",
+        "details": "Employee submitted a new IT support request.",
+        "request_id": "REQ-43"
+    },
+    {
+        "timestamp": "2026-09-17 18:36:48",
+        "event": "Issue classified",
+        "details": "Request classified as VPN with 60.0% confidence.",
+        "request_id": "REQ-43"
+    },
+    {
+        "timestamp": "2026-09-17 18:36:48",
+        "event": "Knowledge base searched",
+        "details": "Matched VPN Access (KB-02).",
+        "request_id": "REQ-43"
+    },
+    {
+        "timestamp": "2026-09-17 18:36:48",
+        "event": "Decision generated",
+        "details": "CLARIFICATION — More information required",
+        "request_id": "REQ-43"
+    },
+    {
+        "timestamp": "2026-09-17 18:36:48",
+        "event": "Follow-up requested",
+        "details": "What problem are you experiencing with VPN?",
+        "request_id": "REQ-43"
+    },
+    {
+        "timestamp": "2026-09-17 18:37:03",
+        "event": "Request received",
+        "details": "Employee submitted a new IT support request.",
+        "request_id": "REQ-44"
+    },
+    {
+        "timestamp": "2026-09-17 18:37:03",
+        "event": "Issue classified",
+        "details": "Request classified as VPN with 60.0% confidence.",
+        "request_id": "REQ-44"
+    },
+    {
+        "timestamp": "2026-09-17 18:37:03",
+        "event": "Knowledge base searched",
+        "details": "Matched VPN Access (KB-02).",
+        "request_id": "REQ-44"
+    },
+    {
+        "timestamp": "2026-09-17 18:37:03",
+        "event": "Decision generated",
+        "details": "CLARIFICATION — More information required",
+        "request_id": "REQ-44"
+    },
+    {
+        "timestamp": "2026-09-17 18:37:03",
+        "event": "Follow-up requested",
+        "details": "What problem are you experiencing with VPN?",
+        "request_id": "REQ-44"
+    },
+    {
+        "timestamp": "2026-09-17 18:37:09",
+        "event": "Request received",
+        "details": "Employee submitted a new IT support request.",
+        "request_id": "REQ-45"
+    },
+    {
+        "timestamp": "2026-09-17 18:37:09",
+        "event": "Issue classified",
+        "details": "Request classified as VPN with 60.0% confidence.",
+        "request_id": "REQ-45"
+    },
+    {
+        "timestamp": "2026-09-17 18:37:09",
+        "event": "Knowledge base searched",
+        "details": "Matched VPN Access (KB-02).",
+        "request_id": "REQ-45"
+    },
+    {
+        "timestamp": "2026-09-17 18:37:09",
+        "event": "Decision generated",
+        "details": "CLARIFICATION — More information required",
+        "request_id": "REQ-45"
+    },
+    {
+        "timestamp": "2026-09-17 18:37:09",
+        "event": "Follow-up requested",
+        "details": "What problem are you experiencing with VPN?",
+        "request_id": "REQ-45"
+    },
+    {
+        "timestamp": "2026-09-17 18:37:21",
+        "event": "Request received",
+        "details": "Employee submitted a new IT support request.",
+        "request_id": "REQ-46"
+    },
+    {
+        "timestamp": "2026-09-17 18:37:21",
+        "event": "Issue classified",
+        "details": "Request classified as VPN with 89.0% confidence.",
+        "request_id": "REQ-46"
+    },
+    {
+        "timestamp": "2026-09-17 18:37:21",
+        "event": "Knowledge base searched",
+        "details": "Matched VPN Access (KB-02).",
+        "request_id": "REQ-46"
+    },
+    {
+        "timestamp": "2026-09-17 18:37:21",
+        "event": "Decision generated",
+        "details": "REQUIRES_APPROVAL — VPN approval required",
+        "request_id": "REQ-46"
+    },
+    {
+        "timestamp": "2026-09-17 18:37:21",
+        "event": "Ticket created",
+        "details": "Structured ticket created and assigned to IT Support.",
+        "request_id": "REQ-46",
+        "ticket_id": "TK-1078"
+    },
+    {
+        "timestamp": "2026-09-17 18:37:33",
+        "event": "Request received",
+        "details": "Employee submitted a new IT support request.",
+        "request_id": "REQ-47"
+    },
+    {
+        "timestamp": "2026-09-17 18:37:33",
+        "event": "Issue classified",
+        "details": "Request classified as Software with 83.0% confidence.",
+        "request_id": "REQ-47"
+    },
+    {
+        "timestamp": "2026-09-17 18:37:33",
+        "event": "Knowledge base searched",
+        "details": "Matched Software Installation (KB-04).",
+        "request_id": "REQ-47"
+    },
+    {
+        "timestamp": "2026-09-17 18:37:33",
+        "event": "Decision generated",
+        "details": "SECURITY_REVIEW — Non-catalog software requires review",
+        "request_id": "REQ-47"
+    },
+    {
+        "timestamp": "2026-09-17 18:37:33",
+        "event": "Ticket created",
+        "details": "Structured ticket created and assigned to IT Security.",
+        "request_id": "REQ-47",
+        "ticket_id": "TK-1079"
+    },
+    {
+        "timestamp": "2026-09-17 18:37:52",
+        "event": "Request received",
+        "details": "Employee submitted a new IT support request.",
+        "request_id": "REQ-48"
+    },
+    {
+        "timestamp": "2026-09-17 18:37:52",
+        "event": "Issue classified",
+        "details": "Request classified as General IT with 48.0% confidence.",
+        "request_id": "REQ-48"
+    },
+    {
+        "timestamp": "2026-09-17 18:37:52",
+        "event": "Knowledge base searched",
+        "details": "Matched Work-From-Home Equipment (KB-10).",
+        "request_id": "REQ-48"
+    },
+    {
+        "timestamp": "2026-09-17 18:37:52",
+        "event": "Decision generated",
+        "details": "HUMAN_REVIEW — Human review required",
+        "request_id": "REQ-48"
+    },
+    {
+        "timestamp": "2026-09-17 18:37:52",
+        "event": "Ticket created",
+        "details": "Structured ticket created and assigned to IT Support.",
+        "request_id": "REQ-48",
+        "ticket_id": "TK-1080"
+    },
+    {
+        "timestamp": "2026-09-17 18:39:37",
+        "event": "Ticket status updated",
+        "details": "Ticket status changed from Open to Resolved.",
+        "request_id": "REQ-48",
+        "ticket_id": "TK-1080"
+    },
+    {
+        "timestamp": "2026-09-17 18:39:40",
+        "event": "Ticket status updated",
+        "details": "Ticket status changed from Resolved to In Progress.",
+        "request_id": "REQ-48",
+        "ticket_id": "TK-1080"
+    },
+    {
+        "timestamp": "2026-09-17 18:40:40",
+        "event": "Request received",
+        "details": "Employee submitted a new IT support request.",
+        "request_id": "REQ-49"
+    },
+    {
+        "timestamp": "2026-09-17 18:40:40",
+        "event": "Issue classified",
+        "details": "Request classified as Laptop with 87.0% confidence.",
+        "request_id": "REQ-49"
+    },
+    {
+        "timestamp": "2026-09-17 18:40:40",
+        "event": "Knowledge base searched",
+        "details": "Matched Laptop Replacement (KB-03).",
+        "request_id": "REQ-49"
+    },
+    {
+        "timestamp": "2026-09-17 18:40:40",
+        "event": "Decision generated",
+        "details": "ROUTE_TO_IT — Laptop display issue",
+        "request_id": "REQ-49"
+    },
+    {
+        "timestamp": "2026-09-17 18:40:40",
+        "event": "Ticket created",
+        "details": "Structured ticket created and assigned to IT Support.",
+        "request_id": "REQ-49",
+        "ticket_id": "TK-1081"
+    }
+]

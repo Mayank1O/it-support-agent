@@ -1,0 +1,11 @@
+[
+    {
+        "id": "POL-ASM-01",
+        "title": "Asset Management Policy",
+        "category": "Laptop",
+        "policy": "All company hardware follows a standard 4-year refresh cycle from the date of issue. Early replacement outside this cycle requires Finance sign-off in addition to IT approval.",
+        "effective_period": "Q2 2026",
+        "priority": 1,
+        "responsible_team": "Finance + IT"
+    }
+]
